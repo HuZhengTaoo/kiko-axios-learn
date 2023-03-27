@@ -1,6 +1,8 @@
 export type Method =
   | 'get'
   | 'GET'
+  | 'post'
+  | 'POST'
   | 'delete'
   | 'Delete'
   | 'head'

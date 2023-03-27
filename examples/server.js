@@ -41,4 +41,8 @@ router.get('/base/get', function(req, res) {
   res.json(req.query)
 })
 
+router.post('/base/post', function(req, res) {
+  res.json(req.body)
+})
+
 app.use(router)
